@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="pagina">
+    <main class="principal">
+        <div class="conteiner">
+            <div class="central">
+                <header class="superior">
+                    <img class="superior_imagem" src="./Styles/Frame 6.svg" alt="Icone Alura">
+                </header>
+
+                <div class="central_info">
+                    <textarea class="principal_texto" id="input_texto" rows="10" placeholder="Digite seu texto"></textarea>
+                    
+                    <p class="principal_info"><img  class="img" src="./Styles/bi_exclamation-circle-fill.svg" alt=""> Apenas letras minúsculas e sem acento</p>
+                    
+                    <div class="principal_botoes">
+                        <button class="btn botao_codificar" onclick="criptografar()"> Criptografar </button>
+                        <button class="btn botao_descodificar" onclick="descriptografar()"> Descriptografar</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="resultado" id="output_texto">
+                <img class="imagem" src="./Styles/High quality products 1 1.svg" alt="Pessoa olhando com uma lupa">
+                <div class="resultado_texto">
+                    <h2>Nenhuma mensagem encontrada</h1>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+     <script src="codigo.js"></script>
+
+</body>
+</html>
+
